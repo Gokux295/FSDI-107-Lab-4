@@ -1,0 +1,117 @@
+html{
+    font-size: 62.5%;
+}
+
+*, *:before,*:after{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+}
+
+header{
+    background-color: rgb(5, 43, 94);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 8vh;
+}
+
+nav{
+    margin-top: 1rem;
+}
+
+nav a{
+    color: white;
+    text-decoration: none !important;
+    padding: 1rem;
+    font-size: 1.7rem !important;   
+}
+
+nav a:hover{
+    color: rgb(11,123,20);
+}
+
+.img-logo{
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+    min-height: 600px;
+}
+
+.welcome-text{
+    position: absolute;
+    width: 30rem;
+    height: 600px;
+    margin: 25% 40%;
+    text-align: center;
+}
+.welcome-text h1{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+.welcome-text a{
+    border: 1px solid #fff;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 20px;
+    display: inline-block;
+    color: #fff;
+}
+.welcome-text a:hover{
+    background: #fff;
+    color: #333;
+}
+
+.hometext{
+    background-color: rgb(5, 43, 94);
+    color: rgba(242, 240, 245, 0.781);
+    text-align: center;
+    margin-top: center;
+    margin-left: 100rem;
+    height: 40rem;
+    border-radius: 5%;
+}
+
+br{
+    background-color: rgb(173, 177, 173);
+}
+
+.entertext{
+    margin-top: 6rem;
+}
+
+main{
+    height: 90vh
+}
+/**Global **/
+
+img{
+    max-width: 100%;
+}
+
+h1{
+    font-size: 3.8rem;
+}
+
+h2{
+    font-size: 3.4rem;
+    text-align: center;
+    padding: 2rem 0 2rem 0;
+}
+
+h3{
+    font-size: 3rem;
+    text-align: center;
+}
+
+h4{
+    font-size: 2.6rem;
+}
